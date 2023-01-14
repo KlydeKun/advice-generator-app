@@ -101,27 +101,18 @@ p {
   transform: translateX(-50%);
 }
 
-.container button:hover {
-  /* background-color: hsl(150, 53%, 44%); */
+.container button:hover:focus:active {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px hsl(150, 53%, 44%);
 }
 
-.container button:active {
+/* .container button:active {
   box-shadow: none;
 }
 
-.container button:after {
-  background-color: var(--neon-green);
-  border: none;
-  padding: 1.25rem;
-  border-radius: 50%;
-  transition: background-color 0.3s ease-in-out;
-  cursor: pointer;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
+.container button:focus {
+  box-shadow: none;
+} */
 
 .attribution {
   font-size: 11px;
