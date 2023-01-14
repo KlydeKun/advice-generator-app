@@ -92,13 +92,19 @@ p {
 .container button {
   background-color: var(--neon-green);
   border: none;
-  padding: 1.25rem;
-  display: block;
+  /* I added margin and padding top */
+  margin-top: 2px;
+  padding-top: 4px;
+  /* padding: 1.25rem; */
+  background-position: center;
+  /* I add width & height */
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
   position: absolute;
-  left: 50%;
+  /* left: 50%; */
   transform: translateX(-50%);
 }
 
