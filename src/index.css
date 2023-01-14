@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  background-color: var(--dark-grayish-blue);
+  padding: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 0.1px);
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  background-color: var(--grayish-blue);
+  padding: 1.25rem 1.25rem 2rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.container h1 {
+  color: var(--neon-green);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.810rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  margin-bottom: 2rem;
+  color: var(--light-cyan);
+}
+
+.container picture img {
+  background-color: var(--grayish-blue);
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.container picture::before {
+  content: "";
+  width: 37%;
+  height: 1px;
+  background-color: var(--light-cyan);
+  right: 1.25rem;
+  bottom: 3.8rem;
+  position: absolute;
+  display: block;
+  z-index: 99;
+}
+
+.container picture::after {
+  content: "";
+  width: 42%;
+  height: 1px;
+  background-color: var(--light-cyan);
+  left: 0;
+  bottom: 1.8rem;
+  position: relative;
+  display: block;
+}
+
+.container picture img {
+  margin-bottom: 1rem;
+}
+
+.container button {
+  background-color: var(--neon-green);
+  border: none;
+  padding: 1.25rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container button:hover {
+  background-color: hsl(150, 53%, 44%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 4rem;
+  color: var(--light-cyan);
+}
+
+.attribution a {
+  color: hsl(228, 65%, 62%);
+  transition: color 0.3s ease-in-out;
+}
+
+.attribution a:hover {
+  color: hsl(228, 41%, 48%);
+}
+
+@media (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+}
