@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 
 * {
   margin: 0;
@@ -47,7 +47,7 @@ p {
   color: var(--neon-green);
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  font-size: 0.810rem;
+  font-size: 0.81rem;
   margin-bottom: 1rem;
 }
 
@@ -64,7 +64,7 @@ p {
 
 .container picture::before {
   content: "";
-  width: 37%;
+  width: 38.3%;
   height: 1px;
   background-color: var(--light-cyan);
   right: 1.25rem;
@@ -102,7 +102,13 @@ p {
 }
 
 .container button:hover {
-  background-color: hsl(150, 53%, 44%);
+  /* background-color: hsl(150, 53%, 44%); */
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px hsl(150, 53%, 44%);
+}
+
+.container button:active {
+  box-shadow: none;
 }
 
 .attribution {
