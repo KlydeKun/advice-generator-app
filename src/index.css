@@ -111,6 +111,18 @@ p {
   box-shadow: none;
 }
 
+.container button:after {
+  background-color: var(--neon-green);
+  border: none;
+  padding: 1.25rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
