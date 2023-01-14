@@ -43,7 +43,7 @@ function App() {
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
         </a>
-        .&nbsp;&nbsp;Coded by <a href="https://github.com/klyde014/advice-generator-app">Kyle Rivera Lerio</a>.
+        .&nbsp;&nbsp;Coded by <a href="https://github.com/klyde014/advice-generator-app" target="_blank">Kyle Rivera Lerio</a>.
       </div>
     </>
   );
