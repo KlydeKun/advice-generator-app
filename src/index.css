@@ -93,6 +93,7 @@ p {
   background-color: var(--neon-green);
   border: none;
   padding: 1.25rem;
+  display: block;
   border-radius: 50%;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
@@ -105,14 +106,6 @@ p {
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px hsl(150, 53%, 44%);
 }
-
-/* .container button:active {
-  box-shadow: none;
-}
-
-.container button:focus {
-  box-shadow: none;
-} */
 
 .attribution {
   font-size: 11px;
